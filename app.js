@@ -11,7 +11,17 @@ app.get('/', function (req, res) {
 app.get('/hello', (req, res) => {
   res.send('Hello World!')
 })
+app.get('/yeshwanth', (req, res) => {
+  res.send('hello friends,welcome to webapps')
+})
 
+app.get('/YuvrajSingh', (req, res) => {
+  res.send('sixer king')
+})
+
+app.get('/MSD', (req, res) => {
+  res.send('captain cool')
+})
 app.get('/big',  (req, res) =>{
   res.send('<h1>Hello World!</h1>')
 })
